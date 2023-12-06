@@ -1,0 +1,14 @@
+* {
+  background-color: rgb(232, 231, 235);
+}
+
+.list {
+  color: white;
+}
+
+.logo {
+  width: 8rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
