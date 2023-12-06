@@ -1,13 +1,24 @@
 import Home from "./Components/Home/Home";
+import Navbar from "./Components/Navbar/Navbar";
 
 import "./App.css";
-import Home from "./Components/Home/Home";
 
 function App() {
   return (
-    <Home>
-      <Home></Home>
-    </Home>
+    <div>
+      <div
+        style={{
+          width: "35vw",
+          height: "100vh",
+          border: "2px solid rgba(0, 0, 0, 0.05)",
+        }}
+      >
+        <Navbar></Navbar>
+      </div>
+      <div>
+        <Home></Home>
+      </div>
+    </div>
   );
 }
 
