@@ -1,5 +1,5 @@
 * {
-  background-color: rgb(232, 231, 235);
+  background-color: rgb(166, 150, 216);
 }
 
 .list {
@@ -11,4 +11,9 @@
   height: 3rem;
   margin-top: 2rem;
   margin-left: 1rem;
+}
+
+.bookmark {
+  margin-top: 4rem;
+  margin-left: 10rem;
 }

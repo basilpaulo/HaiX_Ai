@@ -9,10 +9,10 @@ const Navbar = () => {
     <div>
         <i class="bi bi-bookmark"></i>
          <img className="logo" src={logo} alt='logo'></img>
-         <div>{BookmarkBorderIcon}</div>
-         <ul className='list'>Favourite Dashboard</ul>
+         
+         <ul className='list'><BookmarkBorderIcon className='bookmark'></BookmarkBorderIcon>Favourite Dashboard</ul>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar   
