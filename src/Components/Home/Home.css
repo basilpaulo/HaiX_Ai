@@ -10,3 +10,15 @@
   size: 200rem;
   margin-left: 35rem;
 }
+.social-logo {
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+  width: 1rem;
+  height: 5rem;
+}
+
+.avatar {
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
