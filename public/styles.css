@@ -21,7 +21,7 @@ button {
   left: 0;
   width: 72px;
   height: 100%;
-  background: #048480;
+  background: rgb(6, 5, 8);
   transition: width 0.4s;
 }
 
@@ -46,7 +46,6 @@ body.open .sidebar {
   height: 72px;
   width: 300px;
   padding: 0 1.25rem 0 0;
-  background: rgba(0, 3, 101, 0.458));
 }
 
 .sidebar-burger {
@@ -81,14 +80,16 @@ body.open .sidebar-logo {
   display: flex;
   gap: 25px;
   align-items: center;
-  height: 50px;
-  width: 72px;
+  height: 63px;
+  max-width: 280px;
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 200;
   letter-spacing: 2px;
   line-height: 1;
   padding: 0 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sidebar button > img {
@@ -116,4 +117,9 @@ body.open .sidebar-logo {
 body.open .sidebar button > span {
   opacity: 1;
   animation: appear 0.3s both;
+}
+
+.material-icons {
+  color: white;
+  opacity: 50%;
 }

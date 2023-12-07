@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.15.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sidebar 5</title>
@@ -26,20 +29,64 @@
         </header>
         <nav class="sidebar-nav">
           <button type="button">
-            <img src="./assets/icon-home.svg" />
+            <i class="material-icons">
+              bookmark_border
+            </i>
             <span>FAVOURITES DASHBOARD</span>
           </button>
           <button type="button">
-            <img src="./assets/icon-settings.svg" />
+            <i class="material-icons">
+              memory
+            </i>
             <span style="animation-delay: 0.1s">REAL TIME CHATGPT INSIGHTS[BETA]</span>
           </button>
           <button type="button">
-            <img src="./assets/icon-levels.svg" />
-            <span style="animation-delay: 0.2s">Levels</span>
+            <i class="material-icons">
+              hearing
+            </i>
+            <span style="animation-delay: 0.2s">REAL TIME SOCIAL LISTNENING INSIGHTS</span>
           </button>
           <button type="button">
-            <img src="./assets/icon-accounts.svg" />
-            <span style="animation-delay: 0.3s">Accounts</span>
+            <i class="material-icons">
+              bolt
+            </i>
+            <span style="animation-delay: 0.3s">ACTIVE INFLUENCERS INSIGHTS</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              move_to_inbox
+            </i>
+            <span style="animation-delay: 0.3s">SOCIAL MENTIONS SMART INBOX</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              padding
+            </i>
+            <span style="animation-delay: 0.3s">AD CAMPAIGN INSIGHTS</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              book_online
+            </i>
+            <span style="animation-delay: 0.3s">LINKEDIN INSIGHTS</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              pie_chart
+            </i>
+            <span style="animation-delay: 0.3s">PORTFOLIO/COMPETITOR INSIGHTS</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              transfer_within_a_station
+            </i>
+            <span style="animation-delay: 0.3s">LEAD GENERATION INSIGHTS</span>
+          </button>
+          <button type="button">
+            <i class="material-icons">
+              troubleshoot
+            </i>
+            <span style="animation-delay: 0.3s">INTELLIGENT REAL TIME AI NEURAL SEARCH</span>
           </button>
         </nav>
         <footer class="sidebar-footer">
@@ -54,5 +101,7 @@
     <script type="text/javascript">
       const toggleSidebar = () => document.body.classList.toggle("open");
     </script>
+    <div id="root"></div>
+
   </body>
 </html>
